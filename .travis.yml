@@ -16,7 +16,7 @@ install:
 - npm install
 
 before_script:
-- echo $'[default]\nregion=eu-west-1\noutput=json' >~/.aws/config
+- cp config ~/.aws/config
 - zip Archive.zip node_modules/ index.js package.json
 
 script:
