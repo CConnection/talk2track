@@ -18,10 +18,10 @@ install:
 before_script:
 - mkdir ~/.aws && cp config ~/.aws/config
 - ls
-- zip Archive.zip node_modules/ index.js package.json
+- zip -r archive.zip node_modules/ index.js package.json
 
 script:
-- ~/.local/bin/aws s3 cp ./Archive.zip s3://talk2track/
+- ~/.local/bin/aws s3 cp ./archive.zip s3://talk2track/
 - ~/.local/bin/aws lambda update-function-code --function-name arn:aws:lambda:eu-west-1:707240056309:function:talk2track --s3-bucket talk2track --s3-key Archive.zip
 
 
