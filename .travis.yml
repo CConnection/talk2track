@@ -15,7 +15,9 @@ install:
 - pip install --upgrade --user awscli
 - npm install
 
-before_script: zip Archive.zip node_modules/ index.js package.json
+before_script:
+- echo $'[default]\nregion=eu-west-1\noutput=json' >~/.aws/config
+- zip Archive.zip node_modules/ index.js package.json
 
 script:
 - ~/.local/bin/aws s3 cp ./Archive.zip s3://talk2track/
