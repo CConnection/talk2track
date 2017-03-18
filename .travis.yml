@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+# command to install dependencies
+install:
+  - pip install --upgrade --user awscli
+# command to run tests
+script:
+  - 
+  - aws s3 cp /tmp/foo/ s3://talk2track.s3-eu-central.amazonaws.com
