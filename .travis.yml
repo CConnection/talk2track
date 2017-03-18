@@ -17,6 +17,7 @@ install:
 
 before_script:
 - mkdir ~/.aws && cp config ~/.aws/config
+- ls
 - zip Archive.zip node_modules/ index.js package.json
 
 script:
