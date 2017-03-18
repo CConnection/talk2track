@@ -16,7 +16,7 @@ install:
 - npm install
 
 before_script:
-- cp config ~/.aws/config
+- mkdir ~/.aws && cp config ~/.aws/config
 - zip Archive.zip node_modules/ index.js package.json
 
 script:
