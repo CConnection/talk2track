@@ -18,7 +18,7 @@ install:
 before_script:
 - mkdir ~/.aws && cp config ~/.aws/config
 - ls
-- zip -r archive.zip node_modules/ index.js package.json
+- zip -r archive.zip node_modules index.js package.json
 
 script:
 - ~/.local/bin/aws s3 cp ./archive.zip s3://talk2track/
