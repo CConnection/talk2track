@@ -65,6 +65,28 @@ WannKommtMeineBestellungIntent Wann bekomme ich meine Bestellung
 WannKommtMeineBestellungIntent Wann kriege ich meine Lieferung
 WannKommtMeineBestellungIntent Wann bekomme ich meine Lieferung
 
+KannEsSchnellerKommenIntent kann es schneller kommen
+KannEsSchnellerKommenIntent kann ich es schneller kriegen
+KannEsSchnellerKommenIntent kann es schneller gehen
+KannEsSchnellerKommenIntent geht es auch schneller
+KannEsSchnellerKommenIntent geht es auch früher
+KannEsSchnellerKommenIntent kann es schneller ankommen
+KannEsSchnellerKommenIntent kann es früher kommen
+KannEsSchnellerKommenIntent kann es früher ankommen
+KannEsSchnellerKommenIntent kann ich es früher kriegen
+
+WasHabeIchBestelltIntent was habe ich bestellt
+WasHabeIchBestelltIntent was ist in meiner Bestellung
+WasHabeIchBestelltIntent was ist in der Bestellung
+WasHabeIchBestelltIntent was ist in der Lieferung
+WasHabeIchBestelltIntent was ist in meiner Lieferung
+WasHabeIchBestelltIntent welche Produkte habe ich bestellt
+WasHabeIchBestelltIntent welche Dinge habe ich bestellt
+WasHabeIchBestelltIntent was habe ich gekauft
+WasHabeIchBestelltIntent was wird ankommen
+WasHabeIchBestelltIntent was kommt an
+WasHabeIchBestelltIntent was werde ich bekommen
+
 IstMeineBestellungGefertigtIntent Ist mein Paket gefertig
 IstMeineBestellungGefertigtIntent Ist meine Bestellung gefertig
 IstMeineBestellungGefertigtIntent Ist meine Lieferung Ist
