@@ -75,22 +75,22 @@ var handlers = {
         this.emit('StelleTeamIdeeVor')
    }, 
     'StelleTeamVor': function () {
-       this.emit(':ask', "Das Team das mich die letzten Tage Programmiert hat Nennt sich tork to träck. es besteht aus Winnie Julian Konrad Konstantin Timo und natürlich dem besten Coach von allen Thomas", "Hallo noch da?")
+       this.emit(':ask', "Das Team, das mich die letzten Tage programmiert hat, nennt sich tork to träck. Es besteht aus den Mitgliedern Winnie, Julian, Konrad, Konstantin, Timo und natürlich dem besten Coach von allen, Thomas.", "Hallo noch da?")
     },
      'StelleTeamIdeeVor': function () {
-       this.emit(':ask', "das Thema der Idee ist Bestellungen in jeglicher größe zu Orten und Informationen über die Bestellung auf Nachfrage zu geben", "Hallo noch da?")
+       this.emit(':ask', "Unsere Idee war es, auf Nachfrage Informationen über Bestellungen in jeglicher Form auf eine effiziente Weise zu übermitteln.", "Hallo noch da?")
     },
      'WarumBrauchtManUnsIntent': function () {
        this.emit('ManBrauchtUnsFuer')
     },
      'ManBrauchtUnsFuer': function () {
-       this.emit(':ask', "Ein Sprachgesteuertes Zuhause Oder ein Sprachgesteuerter Arbeitsplatz bietet viele Vorteile zum Beispiel wenn ein Mechaniker schmutzige Hände hat und dadurch keinen Laptop oder PC nutzen kann Bietet die Sprachsuche den Vorteil Zeit zu sparen und seine  Tastatur zu schonen", "Hallo noch da?")
+       this.emit(':ask', "Ein sprachgesteuertes Zuhause oder sprachgesteuerte Arbeitsplätze bieten viele Vorteile. Wenn beispielsweise ein Mechaniker gerade schmutzige Hände hat, kann man mithilfe der Sprachsuche die Tastatur zu schonen und dabei auch noch Zeit zu sparen.", "Hallo noch da?")
     },
      'WieFunktionierstDuIntent': function () {
         this.emit('IchFunktioniereDurch')
     }, 
     'IchFunktioniereDurch': function () {
-        this.emit(':ask', "tork to träck wurde mit Verschieden Technologien gebaut. Hinter mir steht die Amazon Cloud und Node jay es. Node jay es ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen. Insbesondere lassen sich Webserver damit realisieren. Node jay es wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde, und bietet daher eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz auf der letztendlich die app tork to träck läuft.", "Hallo noch da?")
+        this.emit(':ask', "Tork to träck wurde mit verschieden Technologien gebaut. Hinter mir steht Node jay es. Es ist eine serverseitige Plattform, in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen genutzt wird. Besonders gut lassen sich damit Webserver realisieren. Node jay es wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde. Daher bietet es eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz in der Amazon Cloud, auf der letztendlich die App tork to träck läuft.", "Hallo noch da?")
     },
      'DankeIntent': function () {
         this.emit("Danke. Applaus bitte in 3. 2. 1. Jetzt hahahahahaha", "Hallo noch da?")
