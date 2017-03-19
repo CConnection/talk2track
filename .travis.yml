@@ -1,0 +1,27 @@
+language: node
+
+env:
+  global:
+  - secure: Av4bTM/k/njc3G9wukknVYP44lZAkmganoPv3TU+thADp4lnl/H8D+JWLIIacHB2J0CbA7n4mbL9h42no1OqmeF2QfQHIbalchlI8c3nDyccYQz5Om7PdG0J41Ku+ET7V4GD9f8OP1k2h5dg/j42DxEL023IHO2Z8+ZyaHdJw0AHeR/tf0C8Ad66G9LLOGKqaJDvSlfq80aip97eLQybxJJ0RJ0mCDle11+5SK7FtBEWJBZl7VibCKHfQoCj93L/dSCtKEBLfZ/yRBXFMAKgU4pyPClHngFZSITQ/+2aLl8GmLnYMsW1Dxc/NZpHWe82IDTHJUFbIuniHfaSifYVCOvqiZy9++Se0Vy815LN5818gSPMrDRc0fiAyS7GwJ7j8Kb5K8H+njW4lUWHZcpQqZ4/scZRynlBOxmiWSR0QMSDOH0lmKGw5Ws5qoOBxBiXrcTDcZwM6ZP55A3h5YL1npuKIOkSMEzrBP8mXPSSmW1WYTe1Q/rlVVSdsrhbhQtOChHZq0t0alvGyMFqSVxEi5aaLdoJqcD0FLlXbZWx3evFMpGIeSs2paePeN03483IheK14Ira6VykxTGdzVP94oromFGUTo6cvGdHV+T6u51IWbdOo7QOt0RjFge0GGWlC4qJlh6emM7LOeB2CKxwI2B1Azaq9l8PL/bV7DpMKEg=
+  - secure: R68qlQgIEjfQMDe2DujjFtQ4c6h/EFMMhkQ/QoJGmy6n3nI8ytSIcFOrptKPKG8gU21LDuGm0X7Nrdp7S3PhC+2AjGtlbCadkBV8DhOiJweXs+7VtvEiuE3rDkwsoyJIx3t0meUrGkFSm5KNyKMd7v3yCRRBjL2gXQrFEODgFd+KSdPg0OZURd/adPjicmFL50v2rt3zvaoEhrx4zHXde3NtLcoPWo6kvjvr9CdMPB0W+ixZRVXt8UTBzkzDHWYYCHhvOPkS6pYu0oqhdHSHtNtUezqNkCHTM0u0lBQsARRk7IA7kb8c21CJEM27PzpCgNMF6Nt6knZe/ERO3ykZDJXGV583QY7IUsI+2Op8QvILG/+3i1JsPzAT2gpOrwLH8z8g1llg6h+zxUeARZqMMcjJszR5TuD+XsrEJJMjbka3YpLY8LwKkxP5OEhBOst2a12/ZSQZvIsA/6N9i4Lecy4pDUseSvfTuD6wmG56MJ08qHA43RvoD1XFMidTdovg2OPp19VGUGN84Qd4ajV2d2esvBm+sfHUGQMmwvHqS05+aVCucg5fQYvVOGW3j+xyhgE14PvA9G8NYkTj7cgbHIabRFvKdJsXK6+EL/wACI/ZQMcA0JA0sXE99ta3fsE4yZlApbg0jvVd6hZyAnB5rdjIJPzXjstD/U6OfMaznDI=
+
+addons:
+  apt:
+    packages:
+    - python
+
+install:
+- sudo apt-get install python
+- pip install --upgrade --user awscli
+- npm install
+
+before_script:
+- mkdir ~/.aws && cp config ~/.aws/config
+- ls
+- zip -r archive.zip node_modules index.js package.json
+
+script:
+- ~/.local/bin/aws s3 cp ./archive.zip s3://talk2track/
+- ~/.local/bin/aws lambda update-function-code --function-name arn:aws:lambda:eu-west-1:707240056309:function:talk2track --s3-bucket talk2track --s3-key archive.zip
+
+
