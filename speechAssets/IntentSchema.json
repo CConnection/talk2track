@@ -26,6 +26,18 @@
     },
     {
     "intent": "WannKommtMeineBestellungIntent"
-    }  
+    }, 
+    {
+   "intent": "StelleUnserTeamVorIntent"
+    },  
+    {
+   "intent": "StelleTeamIdeeVorIntent"
+    }, 
+    {
+   "intent": "WarumBrauchtManUnsIntent"
+    }, 
+    {
+    "intent": "WieFunktionierstDuIntent"
+     }
   ]
 }

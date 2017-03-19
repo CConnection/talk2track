@@ -61,3 +61,9 @@ WannKommtMeineBestellungIntent Wann kommt meine Bestellung
 IstMeineBestellungGefertigtIntent Ist mein Paket gefertig
 
 IstMeineBestellungVersandbereitIntent Ist mein Paket versandbereit
+
+StelleUnserTeamVorIntent Stelle unser Team vor
+
+StelleTEamIdeeVorIntent Stelle unsere Team Idee vor
+
+WieFunktionierstDuIntent Mit welcher Pogramiersprache  wurdest du Pogrammiert und für welche Technologie steht tork to träck 

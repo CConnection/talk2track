@@ -67,5 +67,29 @@ var handlers = {
     },
     'BestellungVersandbereitIn': function () {
         this.emit(':tell', "Sie ist bereits verschickt")
+    },
+    'StelleUnserTeamVorIntent': function () {
+        this.emit('StelleTeamVor')
+    },
+    'StelleTeamIdeeVorIntent': function () {
+        this.emit('StelleTeamIdeeVor')
+        }, 
+    'StelleTeamVor': function () {
+       this.emit(':tell', "Das Team das mich die letzten Tage Programmiert hat Nennt sich tork to träck es besteht aus Winnie Julian Konrad Konstantin Timo und natürlich dem besten Coach von allen Thomas")
+    },
+     'StelleTeamIdeeVor': function () {
+       this.emit(':tell', "das Thema der Idee ist Bestellungen in jeglicher größe zu Orten und Informationen über die Bestellung auf Nachfrage zu geben")
+    },
+     'WarumBrauchtManUnsIntent': function () {
+       this.emit('ManBrauchtUnsFuer')
+    },
+     'ManBrauchtUnsFuer': function () {
+       this.emit(':tell', "Ein Sprachgesteuertes Zuhause Oder ein Sprachgesteuerter Arbeitsplatz bietet viele Vorteile zum Beispiel wenn ein Mechaniker schmutzige Hände hat und dadurch keinen Laptop oder PC nutzen kann Bietet die Sprachsuche den Vorteil Zeit zu sparen und seine  Tastatur zu schonen")
+    },
+     'WieFunktionierstDuIntent': function () {
+        this.emit('IchFunktioniereDurch')
+    }, 
+    'IchFunktioniereDurch': function () {
+        this.emit(':tell', "tork to träck wurde mit Verschieden Technologien gebaut. Hinter mir steht die Amazon Cloud und Node,jay es. Node,jay es ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen. Insbesondere lassen sich Webserver damit realisieren. Node.js wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde, und bietet daher eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz auf der letztendlich die app tork to träck läuft.")
     }
 };
