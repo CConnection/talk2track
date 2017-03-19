@@ -16,37 +16,46 @@ WoIstMeineBestellungIntent wo hält sich meine Lieferung auf
 WoIstMeineBestellungIntent wo hält sich die Lieferung auf
 
 
-WarumWurdeMeineLieferungVerzögertIntent warum wurde meine Lieferung verzögert
-WarumWurdeMeineLieferungVerzögertIntent warum ist meine Lieferung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent warum wurde meine Bestellung verzögert
-WarumWurdeMeineLieferungVerzögertIntent warum ist meine Bestellung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent warum kommt meine Lieferung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent warum kommt meine Bestellung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent warum wurde die Lieferung verzögert
-WarumWurdeMeineLieferungVerzögertIntent warum ist die Lieferung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent warum wurde die Bestellung verzögert
-WarumWurdeMeineLieferungVerzögertIntent warum ist die Bestellung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent warum kommt die Lieferung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent warum kommt die Bestellung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent warum dauert es so lange
-WarumWurdeMeineLieferungVerzögertIntent weshalb wurde meine Lieferung verzögert
-WarumWurdeMeineLieferungVerzögertIntent weshalb ist meine Lieferung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent weshalb wurde meine Bestellung verzögert
-WarumWurdeMeineLieferungVerzögertIntent weshalb ist meine Bestellung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent weshalb kommt meine Lieferung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent weshalb kommt meine Bestellung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent weshalb wurde die Lieferung verzögert
-WarumWurdeMeineLieferungVerzögertIntent weshalb ist die Lieferung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent weshalb wurde die Bestellung verzögert
-WarumWurdeMeineLieferungVerzögertIntent weshalb ist die Bestellung verzögert worden
-WarumWurdeMeineLieferungVerzögertIntent weshalb kommt die Lieferung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent weshalb kommt die Bestellung nicht pünktlich an
-WarumWurdeMeineLieferungVerzögertIntent weshalb dauert es so lange
+WarumWurdeMeineLieferungVerzoegertIntent warum wurde meine Lieferung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent warum ist meine Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent warum wurde meine Bestellung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent warum ist meine Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent warum kommt meine Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent warum kommt meine Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent warum wurde die Lieferung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent warum ist die Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent warum wurde die Bestellung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent warum ist die Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent warum kommt die Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent warum kommt die Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent warum dauert es so lange
+WarumWurdeMeineLieferungVerzoegertIntent weshalb wurde meine Lieferung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent weshalb ist meine Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent weshalb wurde meine Bestellung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent weshalb ist meine Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent weshalb kommt meine Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent weshalb kommt meine Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent weshalb wurde die Lieferung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent weshalb ist die Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent weshalb wurde die Bestellung verzögert
+WarumWurdeMeineLieferungVerzoegertIntent weshalb ist die Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzoegertIntent weshalb kommt die Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent weshalb kommt die Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzoegertIntent weshalb dauert es so lange
 
+KriegeIchErstattungIntent kriege ich eine Erstattung
+KriegeIchErstattungIntent kriege ich mein Geld zurück
+KriegeIchErstattungIntent kann ich mein Geld zurückbekommen
+KriegeIchErstattungIntent kann ich eine Erstattung bekommen
+KriegeIchErstattungIntent kann ich Geld zurück einfordern
+KriegeIchErstattungIntent kann ich Erstattung erfordern
+KriegeIchErstattungIntent gibt es einen Weg, Geld zurückzukriegen
 
-
-
-
+WelchesTeamIstDasBesteIntent welches team ist das beste
+WelchesTeamIstDasBesteIntent wer sind die besten
+WelchesTeamIstDasBesteIntent was ist das beste team
+WelchesTeamIstDasBesteIntent Nenne das beste team
+WelchesTeamIstDasBesteIntent 
 
 WannKommtMeineBestellungIntent Wann kommt meine Bestellung
 

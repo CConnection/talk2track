@@ -7,6 +7,21 @@ exports.handler = function(event, context, callback) {
     alexa.execute();
 };
 
+function buildResponse(sessionAttributes, speechletResponse) {
+return {
+version: "1.0",
+sessionAttributes: sessionAttributes,
+response: speechletResponse
+};
+}
+
+var sessionAttributes = {};
+
+sessionAttributes = {nameOfThisSessionAttribute: valueOfThisSessionAttribute};
+
+
+
+
 var handlers = {
      'LaunchRequest': function () {
         this.emit('SagHalloNutzer');
@@ -14,8 +29,8 @@ var handlers = {
     'WoIstMeineBestellungIntent': function () {
         this.emit('MeineBestellungIst')
     },
-    'WarumWurdeMeineLieferungVerzögertIntent': function () {
-        this.emit('LieferungWurdeVerzögert')
+    'WarumWurdeMeineLieferungVerzoegertIntent': function () {
+        this.emit('LieferungWurdeVerzoegert')
     },
     'WelchesTeamIstDasBesteIntent': function () {
         this.emit('BestesTeam')
@@ -35,7 +50,7 @@ var handlers = {
     'SagHalloNutzer' : function () {
         this.emit(':tell', "Hallo Nutzer, frage nach deiner Bestellung")
     },
-    'LieferungWurdeVerzögert' : function () {
+    'LieferungWurdeVerzoegert' : function () {
         this.emit(':tell', "Ich weiß nicht warum deine Bestellung verzögert wurde")
     },
     'WasHabeIchBestellt' : function () {
