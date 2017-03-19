@@ -30,13 +30,13 @@ var handlers = {
         this.emit('KriegeIchErstattung')
     },
     'MeineBestellungIst' : function () {
-        this.emit(':ask', "Ich habe keine Ahnung wo deine Bestellung ist", "Hallo noch da?")
+        this.emit(':ask', "Sie befindet sich auf A1 zwischen Hamburg und Hannover. Sie verzögert sich aber.", "Hallo noch da?")
     },
     'SagHalloNutzer' : function () {
         this.emit(':ask', "Moin, frage nach deiner Bestellung", "Hallo noch da?")
     },
     'LieferungWurdeVerzoegert' : function () {
-        this.emit(':ask', "Ich weiß nicht warum deine Bestellung verzögert wurde", "Hallo noch da?")
+        this.emit(':ask', "Sie verzögert sich aufgrund eines Staus.", "Hallo noch da?")
     },
     'WasHabeIchBestellt' : function () {
         this.emit(':ask', "Streng dein eigenes Gehirn an", "Hallo noch da?")
@@ -45,7 +45,7 @@ var handlers = {
         this.emit(':ask', "Wie wäre es mit abwarten und Tee trinken", "Hallo noch da?")
     },
     'KriegeIchErstattung' : function() {
-        this.emit(':ask', "Vielleicht", "Versuchs doch", "Hallo noch da?")
+        this.emit(':ask', "Versuchs doch", "Hallo noch da?")
     },
     'BestesTeam' : function () {
         this.emit(':ask', "Jedes Team, in dem ich nicht zum Einsatz komme, ist es nicht einmal wert, erwähnt zu werden.", "Hallo noch da?")
@@ -60,7 +60,7 @@ var handlers = {
         this.emit('BestellungVersandbereitIn')
     },
     'MeineBestellungKommt' : function () {
-        this.emit(':ask', "Ich weiss nicht wann deine Bestellung kommt", "Hallo noch da?")
+        this.emit(':ask', "Sie kommt Morgen gegen 12 Uhr.", "Hallo noch da?")
     },
     'BestellungGefertigtIn': function () {
         this.emit(':ask', "Sie ist gefertigt", "Hallo noch da?")
