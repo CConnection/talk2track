@@ -132,4 +132,9 @@ WasHabeIchBestelltIntent was wird ankommen
 WasHabeIchBestelltIntent was kommt an
 WasHabeIchBestelltIntent was werde ich bekommen
 
+WarumBrauchtManUnsIntent Wofür braucht man es
+WarumBrauchtManUnsIntent Warum braucht man uns
+WarumBrauchtManUnsIntent Wofür braucht man uns
+WarumBrauchtManUnsIntent wofür braucht man es
+
 DankeIntent Danke
