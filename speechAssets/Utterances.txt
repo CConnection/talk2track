@@ -49,7 +49,7 @@ KriegeIchErstattungIntent kann ich mein Geld zurückbekommen
 KriegeIchErstattungIntent kann ich eine Erstattung bekommen
 KriegeIchErstattungIntent kann ich Geld zurück einfordern
 KriegeIchErstattungIntent kann ich Erstattung erfordern
-KriegeIchErstattungIntent gibt es einen Weg, Geld zurückzukriegen
+KriegeIchErstattungIntent gibt es einen Weg Geld zurückzukriegen
 
 WelchesTeamIstDasBesteIntent welches team ist das beste
 WelchesTeamIstDasBesteIntent wer sind die besten

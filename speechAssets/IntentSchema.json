@@ -19,7 +19,7 @@
     "intent": "WelchesTeamIstDasBesteIntent"
     },
     {
-    "intent": "IstMeineBestellungVersandfertigIntent"
+    "intent": "IstMeineBestellungVersandbereitIntent"
     },
     {
     "intent": "IstMeineBestellungGefertigtIntent"

@@ -7,21 +7,6 @@ exports.handler = function(event, context, callback) {
     alexa.execute();
 };
 
-function buildResponse(sessionAttributes, speechletResponse) {
-return {
-version: "1.0",
-sessionAttributes: sessionAttributes,
-response: speechletResponse
-};
-}
-
-var sessionAttributes = {};
-
-sessionAttributes = {nameOfThisSessionAttribute: valueOfThisSessionAttribute};
-
-
-
-
 var handlers = {
      'LaunchRequest': function () {
         this.emit('SagHalloNutzer');
@@ -71,8 +56,8 @@ var handlers = {
     'IstMeineBestellungGefertigtIntent': function () {    
         this.emit('BestellungGefertigtIn')
     },
-    'IstMeineBestellungVersandfertigIntent': function () {
-        this.emit('BestellungVersandfertigIn')
+    'IstMeineBestellungVersandbereitIntent': function () {
+        this.emit('BestellungVersandbereitIn')
     },
     'MeineBestellungIst' : function () {
         this.emit(':tell', "Ich weiss nicht wo deine Bestellung ist")
@@ -80,7 +65,7 @@ var handlers = {
     'BestellungGefertigtIn': function () {
         this.emit(':tell', "Sie ist gefertigt")
     },
-    'BestellungVersandfertigIn': function () {
+    'BestellungVersandbereitIn': function () {
         this.emit(':tell', "Sie ist bereits verschickt")
     }
 };
