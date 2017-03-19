@@ -59,8 +59,8 @@ var handlers = {
     'IstMeineBestellungVersandbereitIntent': function () {
         this.emit('BestellungVersandbereitIn')
     },
-    'MeineBestellungIst' : function () {
-        this.emit(':tell', "Ich weiss nicht wo deine Bestellung ist")
+    'MeineBestellungKommt' : function () {
+        this.emit(':tell', "Ich weiss nicht wann deine Bestellung kommt")
     },
     'BestellungGefertigtIn': function () {
         this.emit(':tell', "Sie ist gefertigt")
