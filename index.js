@@ -30,7 +30,7 @@ var handlers = {
         this.emit('KriegeIchErstattung')
     },
     'MeineBestellungIst' : function () {
-        this.emit(':tell', "Ich weiss nicht wo deine Bestellung ist")
+        this.emit(':tell', "Ich weiss nicht wo deine Bestellung ist", "Ich habe keine Ahnung wo deine Bestellung ist", "frag mich nicht")
     },
     'SagHalloNutzer' : function () {
         this.emit(':tell', "Hallo Nutzer, frage nach deiner Bestellung")
@@ -39,13 +39,13 @@ var handlers = {
         this.emit(':tell', "Ich weiß nicht warum deine Bestellung verzögert wurde")
     },
     'WasHabeIchBestellt' : function () {
-        this.emit(':tell', "Ich weiß nicht was du bestellt hast")
+        this.emit(':tell', "Ich weiß nicht was du bestellt hast", "Streng dein eigenes Gehirn an")
     },
     'KannEsSchneller' : function () {
-        this.emit(':tell', "Nein geduldige dich")
+        this.emit(':tell', "Nein geduldige dich", "Geduld ist die Mutter aller Tugenden", "Wie wäre es mit abwarten und Tee trinken")
     },
     'KriegeIchErstattung' : function() {
-        this.emit(':tell', "Vielleicht")
+        this.emit(':tell', "Vielleicht", "Versuchs doch")
     },
     'BestesTeam' : function () {
         this.emit(':tell', "Jedes Team, in dem ich nicht zum Einsatz komme, ist es nicht einmal wert, erwähnt zu werden.")
