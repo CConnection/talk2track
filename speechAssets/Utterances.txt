@@ -67,3 +67,7 @@ StelleUnserTeamVorIntent Stelle unser Team vor
 StelleTeamIdeeVorIntent Stelle unsere Team Idee vor
 
 WieFunktionierstDuIntent wie wurdest du programmiert
+
+KannEsSchnellerKommenIntent Kann es schneller Kommen
+
+WasHabeIchBestelltIntent Was habe ich bestellt 

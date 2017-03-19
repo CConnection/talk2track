@@ -3,7 +3,7 @@ var Alexa = require("alexa-sdk");
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
-    alexa.registerHandlers(handlers);
+    alexa.registerHandlers(handlers, );
     alexa.execute();
 };
 
@@ -30,10 +30,10 @@ var handlers = {
         this.emit('KriegeIchErstattung')
     },
     'MeineBestellungIst' : function () {
-        this.emit(':tell', "Ich weiss nicht wo deine Bestellung ist", "Ich habe keine Ahnung wo deine Bestellung ist", "frag mich nicht")
+        this.emit(':ask', "Ich weiss nicht wo deine Bestellung ist", "Ich habe keine Ahnung wo deine Bestellung ist", "frag mich nicht")
     },
     'SagHalloNutzer' : function () {
-        this.emit(':tell', "Hallo Nutzer, frage nach deiner Bestellung")
+        this.emit(':ask', "Hallo Nutzer, frage nach deiner Bestellung")
     },
     'LieferungWurdeVerzoegert' : function () {
         this.emit(':tell', "Ich weiß nicht warum deine Bestellung verzögert wurde")
@@ -73,9 +73,9 @@ var handlers = {
     },
     'StelleTeamIdeeVorIntent': function () {
         this.emit('StelleTeamIdeeVor')
-        }, 
+   }, 
     'StelleTeamVor': function () {
-       this.emit(':tell', "Das Team das mich die letzten Tage Programmiert hat Nennt sich tork to träck es besteht aus Winnie Julian Konrad Konstantin Timo und natürlich dem besten Coach von allen Thomas")
+       this.emit(':tell', "Das Team das mich die letzten Tage Programmiert hat Nennt sich tork to träck es. besteht aus Winnie Julian Konrad Konstantin Timo und natürlich dem besten Coach von allen Thomas")
     },
      'StelleTeamIdeeVor': function () {
        this.emit(':tell', "das Thema der Idee ist Bestellungen in jeglicher größe zu Orten und Informationen über die Bestellung auf Nachfrage zu geben")
@@ -90,6 +90,6 @@ var handlers = {
         this.emit('IchFunktioniereDurch')
     }, 
     'IchFunktioniereDurch': function () {
-        this.emit(':tell', "tork to träck wurde mit Verschieden Technologien gebaut. Hinter mir steht die Amazon Cloud und Node,jay es. Node,jay es ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen. Insbesondere lassen sich Webserver damit realisieren. Node.js wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde, und bietet daher eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz auf der letztendlich die app tork to träck läuft.")
+        this.emit(':tell', "tork to träck wurde mit Verschieden Technologien gebaut. Hinter mir steht die Amazon Cloud und Node jay es. Node jay es ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen. Insbesondere lassen sich Webserver damit realisieren. Node jay es wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde, und bietet daher eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz auf der letztendlich die app tork to träck läuft.")
     }
 };
