@@ -54,8 +54,7 @@ KriegeIchErstattungIntent gibt es einen Weg Geld zurückzukriegen
 WelchesTeamIstDasBesteIntent welches team ist das beste
 WelchesTeamIstDasBesteIntent wer sind die besten
 WelchesTeamIstDasBesteIntent was ist das beste team
-WelchesTeamIstDasBesteIntent Nenne das beste team
-WelchesTeamIstDasBesteIntent 
+WelchesTeamIstDasBesteIntent Nenne das beste team 
 
 WannKommtMeineBestellungIntent Wann kommt meine Bestellung
 
