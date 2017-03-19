@@ -57,17 +57,57 @@ WelchesTeamIstDasBesteIntent was ist das beste team
 WelchesTeamIstDasBesteIntent Nenne das beste team 
 
 WannKommtMeineBestellungIntent Wann kommt meine Bestellung
+WannKommtMeineBestellungIntent Wann kommt meine Lieferung an 
+WannKommtMeineBestellungIntent Wann wird meine Bestellung ankommen 
+WannKommtMeineBestellungIntent Wann wird meine Lieferung ankommen
+WannKommtMeineBestellungIntent Wann kriege ich meine Bestellung
+WannKommtMeineBestellungIntent Wann bekomme ich meine Bestellung
+WannKommtMeineBestellungIntent Wann kriege ich meine Lieferung
+WannKommtMeineBestellungIntent Wann bekomme ich meine Lieferung
 
 IstMeineBestellungGefertigtIntent Ist mein Paket gefertig
+IstMeineBestellungGefertigtIntent Ist meine Bestellung gefertig
+IstMeineBestellungGefertigtIntent Ist meine Lieferung Ist
 
 IstMeineBestellungVersandbereitIntent Ist mein Paket versandbereit
+IstMeineBestellungVersandbereitIntent Ist meine Bestellung versandbereit
+IstMeineBestellungVersandbereitIntent Ist meine Lieferung versandbereit
+IstMeineBestellungVersandbereitIntent Ist mein Paket versandfertig
+IstMeineBestellungVersandbereitIntent Ist meine Bestelloung versandfertig
+IstMeineBestellungVersandbereitIntent Ist meine Lieferung versandfertig
+IstMeineBestellungVersandbereitIntent Ist mein Paket bereit, versendet zu werden
+IstMeineBestellungVersandbereitIntent Ist meine Bestellung bereit, versendet zu werden
+IstMeineBestellungVersandbereitIntent Ist meine Lieferung bereit, versendet zu werden
 
 StelleUnserTeamVorIntent Stelle unser Team vor
+StelleUnserTeamVorIntent Wer hat dich die letzten Tage programmiert
 
 StelleTeamIdeeVorIntent Stelle unsere Team Idee vor
+StelleTeamIdeeVorIntent Was war die Idee unseres Teams
+StelleTeamIdeeVorIntent Was ist das Thema des Projektes
 
 WieFunktionierstDuIntent wie wurdest du programmiert
 
-KannEsSchnellerKommenIntent Kann es schneller Kommen
+KannEsSchnellerKommenIntent kann es schneller kommen
+KannEsSchnellerKommenIntent kann ich es schneller kriegen
+KannEsSchnellerKommenIntent kann es schneller gehen
+KannEsSchnellerKommenIntent geht es auch schneller
+KannEsSchnellerKommenIntent geht es auch früher
+KannEsSchnellerKommenIntent kann es schneller ankommen
+KannEsSchnellerKommenIntent kann es früher kommen
+KannEsSchnellerKommenIntent kann es früher ankommen
+KannEsSchnellerKommenIntent kann ich es früher kriegen
 
-WasHabeIchBestelltIntent Was habe ich bestellt 
+WasHabeIchBestelltIntent was habe ich bestellt
+WasHabeIchBestelltIntent was ist in meiner Bestellung
+WasHabeIchBestelltIntent was ist in der Bestellung
+WasHabeIchBestelltIntent was ist in der Lieferung
+WasHabeIchBestelltIntent was ist in meiner Lieferung
+WasHabeIchBestelltIntent welche Produkte habe ich bestellt
+WasHabeIchBestelltIntent welche Dinge habe ich bestellt
+WasHabeIchBestelltIntent was habe ich gekauft
+WasHabeIchBestelltIntent was wird ankommen
+WasHabeIchBestelltIntent was kommt an
+WasHabeIchBestelltIntent was werde ich bekommen
+
+DankeIntent Danke

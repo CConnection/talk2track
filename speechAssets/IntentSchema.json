@@ -38,6 +38,9 @@
     }, 
     {
     "intent": "WieFunktionierstDuIntent"
-     }
+    },
+    {
+      "intent": "DankeIntent"
+    }
   ]
 }
