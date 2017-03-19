@@ -1,7 +1,31 @@
 {
   "intents": [
     {
-        "intent": "WoIstMeineBestellungIntent"
+      "intent": "WoIstMeineBestellungIntent"
     }
+    {
+      "intent": "WarumWurdeMeineLieferungVerzögertIntent"
+    }
+    {
+      "intent": "WasHabeIchBestelltIntent"
+    }
+    {
+    "intent": "KannEsSchnellerKommenIntent"
+    }
+    {
+    "intent": "KriegeIchErstattungIntent"
+    }
+    {
+    "intent": "WelchesTeamIstDasBesteIntent"
+    }
+    {
+    "intent": "IstMeineBestellungVersandfertigIntent"
+    }
+  {
+    "intent": "IstMeineBestellungGefertigtIntent"
+    }
+    {
+    "intent": "WannKommtMeineBestellungIntent"
+    }  
   ]
 }

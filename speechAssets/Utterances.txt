@@ -1,1 +1,55 @@
 WoIstMeineBestellungIntent wo ist meine Bestellung
+WoIstMeineBestellungIntent wo ist die Bestellung
+WoIstMeineBestellungIntent wo bleibt meine Bestellung
+WoIstMeineBestellungIntent wo bleibt die Bestellung
+WoIstMeineBestellungIntent wo befindet sich meine Bestellung
+WoIstMeineBestellungIntent wo befindet sich die Bestellung
+WoIstMeineBestellungIntent wo hält sich meine Bestellung auf
+WoIstMeineBestellungIntent wo hält sich die Bestellung auf
+WoIstMeineBestellungIntent wo ist meine Lieferung
+WoIstMeineBestellungIntent wo ist die Lieferung
+WoIstMeineBestellungIntent wo bleibt meine Lieferung
+WoIstMeineBestellungIntent wo bleibt die Lieferung
+WoIstMeineBestellungIntent wo befindet sich meine Lieferung
+WoIstMeineBestellungIntent wo befindet sich die Lieferung
+WoIstMeineBestellungIntent wo hält sich meine Lieferung auf
+WoIstMeineBestellungIntent wo hält sich die Lieferung auf
+
+
+WarumWurdeMeineLieferungVerzögertIntent warum wurde meine Lieferung verzögert
+WarumWurdeMeineLieferungVerzögertIntent warum ist meine Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent warum wurde meine Bestellung verzögert
+WarumWurdeMeineLieferungVerzögertIntent warum ist meine Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent warum kommt meine Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent warum kommt meine Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent warum wurde die Lieferung verzögert
+WarumWurdeMeineLieferungVerzögertIntent warum ist die Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent warum wurde die Bestellung verzögert
+WarumWurdeMeineLieferungVerzögertIntent warum ist die Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent warum kommt die Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent warum kommt die Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent warum dauert es so lange
+WarumWurdeMeineLieferungVerzögertIntent weshalb wurde meine Lieferung verzögert
+WarumWurdeMeineLieferungVerzögertIntent weshalb ist meine Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent weshalb wurde meine Bestellung verzögert
+WarumWurdeMeineLieferungVerzögertIntent weshalb ist meine Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent weshalb kommt meine Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent weshalb kommt meine Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent weshalb wurde die Lieferung verzögert
+WarumWurdeMeineLieferungVerzögertIntent weshalb ist die Lieferung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent weshalb wurde die Bestellung verzögert
+WarumWurdeMeineLieferungVerzögertIntent weshalb ist die Bestellung verzögert worden
+WarumWurdeMeineLieferungVerzögertIntent weshalb kommt die Lieferung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent weshalb kommt die Bestellung nicht pünktlich an
+WarumWurdeMeineLieferungVerzögertIntent weshalb dauert es so lange
+
+
+
+
+
+
+WannKommtMeineBestellungIntent Wann kommt meine Bestellung
+
+IstMeineBestellungGefertigtIntent Ist mein Paket gefertig
+
+IstMeineBestellungVersandbereitIntent Ist mein Paket versandbereit
