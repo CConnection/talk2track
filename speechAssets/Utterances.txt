@@ -75,9 +75,9 @@ IstMeineBestellungVersandbereitIntent Ist meine Lieferung versandbereit
 IstMeineBestellungVersandbereitIntent Ist mein Paket versandfertig
 IstMeineBestellungVersandbereitIntent Ist meine Bestelloung versandfertig
 IstMeineBestellungVersandbereitIntent Ist meine Lieferung versandfertig
-IstMeineBestellungVersandbereitIntent Ist mein Paket bereit, versendet zu werden
-IstMeineBestellungVersandbereitIntent Ist meine Bestellung bereit, versendet zu werden
-IstMeineBestellungVersandbereitIntent Ist meine Lieferung bereit, versendet zu werden
+IstMeineBestellungVersandbereitIntent Ist mein Paket bereit versendet zu werden
+IstMeineBestellungVersandbereitIntent Ist meine Bestellung bereit versendet zu werden
+IstMeineBestellungVersandbereitIntent Ist meine Lieferung bereit versendet zu werden
 
 StelleUnserTeamVorIntent Stelle unser Team vor
 StelleUnserTeamVorIntent Wer hat dich die letzten Tage programmiert
