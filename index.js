@@ -33,7 +33,7 @@ var handlers = {
         this.emit(':ask', "Ich habe keine Ahnung wo deine Bestellung ist", "Hallo noch da?")
     },
     'SagHalloNutzer' : function () {
-        this.emit(':ask', "Hallo Nutzer, frage nach deiner Bestellung", "Hallo noch da?")
+        this.emit(':ask', "Moin, frage nach deiner Bestellung", "Hallo noch da?")
     },
     'LieferungWurdeVerzoegert' : function () {
         this.emit(':ask', "Ich weiß nicht warum deine Bestellung verzögert wurde", "Hallo noch da?")
