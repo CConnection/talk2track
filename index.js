@@ -96,6 +96,6 @@ var handlers = {
         this.emit('Danke')
     },
      'Danke': function () {
-        this.emit(':tell', "gerne. Applaus bitte in 3. 2. 1. Jetzt hahahahahahaha", "Hallo noch da?")
+        this.emit(':tell', "gerne. Applaus bitte in drei. zwei. eins. Jetzt hahahahahahaha", "Hallo noch da?")
     }
 };
