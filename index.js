@@ -93,9 +93,9 @@ var handlers = {
         this.emit(':ask', "Tork to träck wurde mit verschieden Technologien gebaut. Hinter mir steht Node jay es. Es ist eine serverseitige Plattform, in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen genutzt wird. Besonders gut lassen sich damit Webserver realisieren. Node jay es wird in der JavaScript-Laufzeitumgebung „V8“ ausgeführt, die ursprünglich für Google Chrome entwickelt wurde. Daher bietet es eine ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen ermöglicht. Alexa ist eine Künstliche Intelligenz in der Amazon Cloud, auf der letztendlich die App tork to träck läuft.", "Hallo noch da?")
     },
      'DankeIntent': function () {
-        this.emit("Danke. Applaus bitte in 3. 2. 1. Jetzt hahahahahaha", "Hallo noch da?")
+        this.emit('Danke')
     },
      'Danke': function () {
-        this.emit(':tell', "gerne")
+        this.emit(':tell', "gerne. Applaus bitte in 3. 2. 1. Jetzt hahahahahaha", "Hallo noch da?")
     }
 };
