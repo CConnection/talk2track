@@ -30,7 +30,7 @@ var handlers = {
         this.emit('KriegeIchErstattung')
     },
     'MeineBestellungIst' : function () {
-        this.emit(':ask', "Sie befindet sich auf A1 zwischen Hamburg und Hannover. Sie verzögert sich aber.", "Hallo noch da?")
+        this.emit(':ask', "Sie befindet sich auf der A1 zwischen Hamburg und Hannover. Sie verzögert sich aber.", "Hallo noch da?")
     },
     'SagHalloNutzer' : function () {
         this.emit(':ask', "Moin, frage nach deiner Bestellung", "Hallo noch da?")
